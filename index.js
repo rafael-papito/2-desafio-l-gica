@@ -1,4 +1,4 @@
-rank("Super-Papito",87, 32);
+rank("Super-Papito",87, 32); // aqui você coloca o nome do herói e quantas vitorias e derrotas ele tem.
 
 function rank(nameHero, vitorias, derrotas){
     let xp = vitorias - derrotas;
