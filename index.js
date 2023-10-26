@@ -1,22 +1,20 @@
-rank(10, 6); 
+rank("Super-Papito",87, 32);
 
-function rank(vitorias, derrotas){
+function rank(nameHero, vitorias, derrotas){
     let xp = vitorias - derrotas;
     if (xp < 10){
-        console.log("O Herói de nome " + nameHero + " está no nível Ferro (" + xp + "xp)")
-    }else if (xp >= 1001, xp <= 20){
-        console.log("O Herói de nome " + nameHero + " está no nível Bronze (" + xp + "xp)")
-    }else if (xp >= 2001, xp <= 5000){
-        console.log("O Herói de nome " + nameHero + " está no nível Prata (" + xp + "xp)")
-    }else if (xp >= 6001, xp <= 7000){
-        console.log("O Herói de nome " + nameHero + " está no nível Ouro (" + xp + "xp)")
-    }else if (xp >= 7001, xp <= 8000){
-        console.log("O Herói de nome " + nameHero + " está no nível Platina (" + xp + "xp)")
-    }else if (xp >= 8001, xp <= 9000){
-        console.log("O Herói de nome " + nameHero + " está no nível Acendente (" + xp + "xp)")
-    }else if (xp >= 9001, xp <= 10000){
-        console.log("O Herói de nome " + nameHero + " está no nível Imortal (" + xp + "xp)")
-    }else if (xp >= 10001){
-        console.log("O Herói de nome " + nameHero + " está no nível Radiante (" + xp + "xp)")
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Ferro (" + xp + "xp)")
+    }else if (xp >= 11, xp <= 20){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Bronze (" + xp + "xp)")
+    }else if (xp >= 21, xp <= 50){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Prata (" + xp + "xp)")
+    }else if (xp >= 51, xp <= 80){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Ouro (" + xp + "xp)")
+    }else if (xp >= 81, xp <= 90){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Diamante (" + xp + "xp)")
+    }else if (xp >= 91, xp <= 100){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Lendário (" + xp + "xp)")
+    }else if (xp >= 101){
+        console.log("O Herói " + nameHero + " tem um saldo de " + vitorias + " vitorias, e está no nível Imortal (" + xp + "xp)")
     }
 }
